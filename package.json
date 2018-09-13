@@ -1,0 +1,18 @@
+{
+  "name": "mybulma",
+  "version": "1.0.0",
+  "description": "bulma style customization",
+  "main": "themes/RTP/staticsass/bulma.scss",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url themes/RTP/static/sass/bulma.scss themes/RTP/static/css/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "Abdoulaye",
+  "license": "MIT"
+}
