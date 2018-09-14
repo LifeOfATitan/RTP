@@ -2,3 +2,38 @@ baseURL = "https://www.rebornthroughpain.com/"
 languageCode = "en-us"
 title = "Reborn Through Pain"
 theme = "RTP"
+
+
+[params]
+
+headerImg = "https://bulma.io/images/bulma-type-white.png"
+heroTitle = "Where Boys Become Men"
+heroSubtitle = "Learn how to master your mindstate"
+author= "Abdoulaye"
+
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "New? Start Here!"
+        title = "New? Start Here!"
+        weight = 1
+        url = "/about"
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        title = "Blog"
+        weight = 2
+        url = "/blog"
+    [[menu.main]]
+        identifier = "contact"
+        name = "Get In Touch"
+        title = "Contact"
+        weight = 4
+        url = "/contact"
+    [[menu.main]]
+        identifier = "books"
+        name = "Book Reviews"
+        title = "Book Reviews"
+        weight = 3
+        url = "/book-reviews"

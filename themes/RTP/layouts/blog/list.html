@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {{ partial "head.html" . }}
+
+<body>
+    {{partial "header.html" . }}
+
+    <section class="section">
+        <div class="columns is-multiline">
+            {{range .Pages }}
+          <div class="column is-one-third">
+              <div class="box">
+                <a href="{{ .RelPermalink }}">
+                    <p class ="title" align="center">{{ .Params.Title }}</p>
+                </a>
+                <img src="{{ .Params.blogImage }}" alt="Blog Photo">
+                <p class="text" align="left">Author: {{ .Params.Author}}</p>
+                <p>{{ .Summary }}</p>
+                  {{ if .Truncated }}
+                  <div>
+                     <a href="{{ .RelPermalink }}">
+                         <p class="text" align="right">Read More…</p>
+                     </a>
+                 </div>
+                 {{end}}
+              </div>
+          </div>
+          {{end}}
+        </div>
+    </section>
+
+    <script defer src="/js/script.js"></script>
+
+</body>
+</html>

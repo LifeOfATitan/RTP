@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{partial "head.html" .}}
+<body>
+    {{partial "header.html" .}}
+
+    <section class="section">
+
+        {{ if .Params.blogImage }}
+            <img{{ with .Params.blogImage }} src="{{ . }}" {{end}} alt="Blog Image">
+        {{ end }}
+
+        {{ .Content}}
+
+    </section>
+
+
+</body>
+</html>
