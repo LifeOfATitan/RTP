@@ -6,9 +6,8 @@
 
     <section class="section">
 
-        {{ if .Params.blogImage }}
-            <img{{ with .Params.blogImage }} src="{{ . }}" {{end}} alt="Blog Image">
-        {{ end }}
+        {{ with .Params.feature_image }}<img src="{{ . }}" alt="Feature Image">{{ end }}
+
 
         {{ .Content}}
 

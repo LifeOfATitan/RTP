@@ -3,7 +3,8 @@ title: "Infinity"
 author: "Abdoulaye"
 date: "2018-09-13T20:04:38-04:00"
 category: []
-blogImage: "infinity/4738.jpg"
+feature_image: "infinity/4738.jpg"
+meta: "<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident blanditiis, porro maiores odit, vero neque placeat perferendis quis dicta officiis suscipit adipisci, atque voluptates dignissimos fuga at sit aliquid.</span>"
 ---
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident blanditiis, porro maiores odit, vero neque placeat perferendis quis dicta officiis suscipit adipisci, atque voluptates dignissimos fuga at sit aliquid.</span>
 <span>Quae similique ab animi quas reiciendis dicta quaerat, sunt, veniam, eaque quis enim sed eius maxime necessitatibus consequatur beatae. Id qui quos, vero velit architecto reprehenderit numquam laudantium. Non, expedita!</span>
