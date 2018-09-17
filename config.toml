@@ -7,8 +7,13 @@ theme = "RTP"
 [params]
 
 headerImg = "https://bulma.io/images/bulma-type-white.png"
-heroTitle = "Where Boys Become Men"
-heroSubtitle = "Learn how to master your mindstate"
+heroTitle = "Living The Life of Your Dreams is Simpler Than You Think"
+heroSubtitle = '''Don’t get it twisted. I said SIMPLER not EASIER.
+                IF you’re not willing to put in the work stop right here and go back to buzzfeed.
+                Seeing that you’re still here. You want to step up in life.
+                Check out the blog for the types of articles that will make you
+                grab your nuts in public and slap the gums of an old lady for
+                eye your subway seat. (not really)'''
 author= "Abdoulaye"
 
 

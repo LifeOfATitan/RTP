@@ -6,13 +6,19 @@
 
     <section class="section">
 
-        {{ with .Params.feature_image }}<img src="{{ . }}" alt="Feature Image">{{ end }}
+        {{ with .Params.feature_image }}
+        <figure class="image is-2by1">
+            <img src="{{ . }}" alt="Feature Image">
+        </figure>
+
+        {{ end }}
 
 
         {{ .Content}}
 
     </section>
 
+    <script defer src="/js/script.js"></script>
 
 </body>
 </html>

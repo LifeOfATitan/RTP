@@ -5,5 +5,6 @@ date: "{{ now.Format "Mon, Jan 2, 2006" }}"
 category: []
 draft: true
 feature_image: ""
+feature_image_list: "{{.Name}}/"
 meta: ""
 ---

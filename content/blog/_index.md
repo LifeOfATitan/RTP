@@ -1,8 +1,10 @@
 ---
 title: "Blog"
-author: "Abdoulaye "
-date: "2018-09-13T13:57:39-04:00"
+author: "Abdoulaye"
+date: "Sat, Sep 15, 2018"
 category: []
 draft: true
 feature_image: ""
+feature_image_list: "blog/"
+meta: ""
 ---

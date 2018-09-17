@@ -4,6 +4,7 @@ author: "Abdoulaye"
 date: "2018-09-13T20:05:56-04:00"
 category: []
 feature_image: "4738.jpg"
+feature_image_list: "drugs/4738.jpg"
 meta: "<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident blanditiis, porro maiores odit, vero neque placeat perferendis quis dicta officiis suscipit adipisci, atque voluptates dignissimos fuga at sit aliquid.</span>"
 ---
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident blanditiis, porro maiores odit, vero neque placeat perferendis quis dicta officiis suscipit adipisci, atque voluptates dignissimos fuga at sit aliquid.</span>

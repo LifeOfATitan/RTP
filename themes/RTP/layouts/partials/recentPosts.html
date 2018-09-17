@@ -1,0 +1,31 @@
+<section class="section">
+
+    <div class="columns is-multiline">
+        {{ range where .Pages "Section" "blog"}}
+        <div class="column is-half">
+                    <div class="box">
+                          <a href="{{ .RelPermalink }}">
+                              <p class ="title" align="center">{{ .Params.Title }}</p>
+                          </a>
+                          {{ with .Resources.ByType "image" }}
+                        	<div class="Image">
+                        	{{ range first 1 . }}
+                        		<img src="{{ .RelPermalink }}">
+                        	{{ end }}
+                        	</div>
+                        {{ end }}
+                          <p class="text" align="left">Author: {{ .Params.Author}}</p>
+                          <div>
+                              <p class="description">{{.Params.meta}}</p>
+                              <a href="{{ .RelPermalink }}">
+                              <p class="text" align="right">Read More…</p>
+                              </a>
+                         </div>
+                    </div>
+        </div>
+        {{ end }}
+    </div>
+
+
+
+</section>
